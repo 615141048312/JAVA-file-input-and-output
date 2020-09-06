@@ -4,7 +4,7 @@ import java.io.File;
 
 public class File02 {
 	public static void main(String[] args) {
-		File desktop = new File("../");
+		File desktop = new File("/Users/yui");
 		
 		File filelist[] = desktop.listFiles();
 		for (int i = 0; i < filelist.length; i++) {
